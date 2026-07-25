@@ -637,7 +637,6 @@ h1{
     font-family:'Pacifico',cursive;
     color:#FFD700;
     margin-bottom:22px;
-    font-weight:400;
     text-shadow:0 0 6px gold;
 }
 
@@ -645,7 +644,6 @@ h2{
     font-family:'Pacifico',cursive;
     color:#FFD86A;
     font-size:32px;
-    font-weight:400;
     text-shadow:0 0 4px gold;
 }
 
@@ -662,8 +660,6 @@ h2{
     font-size:20px;
 
     line-height:2;
-
-    font-weight:400;
 
 }
 

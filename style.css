@@ -752,3 +752,16 @@ height:180px;
 }
 
 }
+.hug-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hug-image img{
+    width: 220px !important;
+    max-width: 80%;
+    height: auto !important;
+    object-fit: contain;
+}

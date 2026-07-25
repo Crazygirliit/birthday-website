@@ -641,11 +641,16 @@ button:hover{
 
 .letter h1{
 
-    color:#D4A300;
+     font-weight: 400;
+
+     color:#D4A300;
 
 }
 
 .letter h2{
+
+    font-weight: 400;
+
 
     color:#333;
 

@@ -514,22 +514,16 @@ button:hover{
 
 }
 
+.hug-image{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
 .hug-image img{
-
-    width:420px;
-
-    max-width:90%;
-
+    width:250px;
+    max-width:80%;
     height:auto;
-
-    border-radius:25px;
-
-    animation:hugFloat 3s ease-in-out infinite;
-
-    filter:
-    drop-shadow(0 0 20px gold)
-    drop-shadow(0 0 40px gold);
-
 }
 
 @keyframes hugFloat{
@@ -639,21 +633,20 @@ button:hover{
 
 }
 
-.letter h1{
-
-     font-weight: 400;
-
-     color:#D4A300;
-
+h1{
+    font-family:'Pacifico',cursive;
+    color:#FFD700;
+    margin-bottom:22px;
+    font-weight:400;
+    text-shadow:0 0 6px gold;
 }
 
-.letter h2{
-
-    font-weight: 400;
-
-
-    color:#333;
-
+h2{
+    font-family:'Pacifico',cursive;
+    color:#FFD86A;
+    font-size:32px;
+    font-weight:400;
+    text-shadow:0 0 4px gold;
 }
 
 .letter h3{
@@ -669,6 +662,8 @@ button:hover{
     font-size:20px;
 
     line-height:2;
+
+    font-weight:400;
 
 }
 

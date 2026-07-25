@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Rahul ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- FLOATING HEARTS -->
+
+<div class="hearts">
+
+<span>❤️</span>
+<span>💖</span>
+<span>💕</span>
+<span>💗</span>
+<span>💞</span>
+
+</div>
+
+<!-- ========================= -->
+<!-- PAGE 1 -->
+<!-- ========================= -->
+
+<div class="container" id="page1">
+
+<h1>🎂 Happy Birthday Rahul 🎂</h1>
+
+<p class="subtitle">
+
+A very special surprise is waiting for you...
+
+</p>
+
+<input
+type="password"
+id="password"
+placeholder="Enter Secret Password">
+
+<p class="hint">
+
+    🤭 <b>Need a Hint?</b>
+
+<br><br>
+
+It's a combination of ❤️ The day we first met + 🎂 Your Birthday.
+
+<br><br>
+
+I know you'll remember it. 😉❤️
+
+</p>
+
+<button onclick="checkPassword()">
+
+Unlock ❤️
+
+</button>
+
+<p id="message"></p>
+
+</div>
+
+<!-- ========================= -->
+<!-- PAGE 2 -->
+<!-- ========================= -->
+
+<div class="container" id="page2">
+
+<h1>✨ Are You Ready? ✨</h1>
+
+<p>
+
+Your birthday surprise is about to begin...
+
+</p>
+
+<div class="buttons">
+
+<button id="yesBtn" onclick="startSurprise()">
+
+❤️ YES
+
+</button>
+
+<button id="noBtn">
+
+😂 NO
+
+</button>
+
+</div>
+
+</div>
+
+<!-- ========================= -->
+<!-- PAGE 3 -->
+<!-- ========================= -->
+
+<div class="container" id="page3">
+
+<h1>🎉 Happy Birthday Rahul 🎉</h1>
+
+<h2>💖 Birthday Wishes 💖</h2>
+
+<p class="wish">
+
+Happy Birthday to You! 🎂❤️
+
+<br>
+
+Happy Birthday to You!
+
+<br>
+
+Happy Birthday, My Dear Love! ❤️
+
+<br>
+
+Happy Birthday to You! ❤️
+
+<br><br>
+
+Happy Birthday to the most special person in my life. ❤️
+
+<br><br>
+
+May this year bring you endless happiness, success, and countless beautiful memories.
+
+<br>
+
+This year has become even more special because you are a part of my life. I pray to God that every coming year becomes even more beautiful and meaningful for you, and that you always receive endless love and happiness.
+
+<br><br>
+
+May all your dreams come true, and may every wish in your heart become a reality.
+
+<br>
+
+I also hope you continue to become stronger, wiser, and more mature with every passing year while always keeping your kind and caring heart.
+
+<br><br>
+
+I hope that in the future, I will love you even more than I do today, and that my love for you will continue to grow stronger with every passing day. ❤️
+
+<br><br>
+
+I hope our bond keeps growing stronger forever, and that every new day brings us closer than the day before.
+
+<br><br>
+
+Always keep smiling, because your smile makes you look even more cute and handsome, and seeing you smile is one of the greatest happiness in my life. 😊❤️
+
+<br><br>
+
+Stay happy, stay healthy, stay blessed, and never change the wonderful person you are.
+
+</p>
+
+<br>
+
+<button onclick="showPhotos()">
+
+📸 Continue
+
+</button>
+
+</div>
+
+<!-- ========================= -->
+<!-- PAGE 4 -->
+<!-- PHOTO GALLERY -->
+<!-- ========================= -->
+
+<div class="container" id="page4">
+
+<h1>📸 Your Beautiful Childhood Memories 📸</h1>
+
+<div class="gallery">
+
+<img src="photo1.jpg">
+
+<img src="photo2.jpg">
+
+<img src="photo3.jpg">
+
+</div>
+
+<button onclick="showGift()">
+
+🎁 Next Surprise
+
+</button>
+
+</div>
+<!-- ========================= -->
+<!-- PAGE 5 : GIFT -->
+<!-- ========================= -->
+
+<div class="container" id="page5">
+
+    <h1>🎁 A Special Surprise For You 🎁</h1>
+
+    <p>Click the gift box below ❤️</p>
+
+    <div class="gift-container" onclick="openGift()">
+
+        <div class="gift-box">
+            🎁
+        </div>
+
+        <div class="teddy" id="teddy">
+
+            <img src="whiteTD.png" alt="Cute Teddy">
+
+        </div>
+
+    </div>
+
+    <p id="giftMessage"></p>
+
+    <br>
+
+    <button onclick="showBouquet()">
+
+        🌹 One More Surprise
+
+    </button>
+
+</div>
+
+<!-- ========================= -->
+<!-- PAGE 6 : HUG -->
+<!-- ========================= -->
+
+<div class="container" id="page6">
+
+    <h1>🤍 One More Little Surprise 🤍</h1>
+
+    <p>
+
+        Sometimes...
+
+        <br><br>
+
+        A warm hug says everything
+
+        that words cannot. I LOVE YOU ❤️
+
+    </p>
+
+    <br>
+
+    <div class="hug-image">
+
+        <img src="hug.png" alt="Warm Hug">
+
+    </div>
+
+    <br><br>
+
+    <button onclick="showLetter()">
+
+        💌 Open Your Secret Letter
+
+    </button>
+
+</div>
+
+<!-- ========================= -->
+<!-- PAGE 7 : ENVELOPE -->
+<!-- ========================= -->
+
+<div class="container" id="page7">
+
+    <h1>💌 A Secret Letter For You 💌</h1>
+
+    <p>
+
+        Before you read it...
+
+        <br><br>
+
+        Click the envelope below ❤️
+
+    </p>
+
+    <br>
+
+    <div class="envelope-container">
+
+        <div class="envelope" onclick="openEnvelope()">
+
+            💌
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ========================= -->
+<!-- PAGE 8 : SECRET LETTER -->
+<!-- ========================= -->
+
+<div class="container" id="page8">
+
+    <div class="letter">
+
+        <h1>💌 My Secret Letter 💌</h1>
+
+        <h2>Happy 18th Birthday My Buddhu Lolu Inssan ❤️🎂</h2>
+
+        <p>
+
+Happy 18th Birthday, My Buddhu. ❤️🎂
+
+<br><br>
+
+Today is a very special day because the most precious person in my life was born.
+
+<br><br>
+
+Thank you for coming into my life and for giving me so many beautiful memories that I will always treasure.
+
+<br><br>
+
+Every conversation, every smile, and every little moment with you means more to me than words can ever explain.
+
+<br><br>
+
+I hope your life is always filled with happiness, success, good health, and endless blessings.
+
+<br><br>
+
+Whenever life becomes difficult, I hope you remember how strong, kind, and capable you truly are.
+
+<br><br>
+
+Please never stop smiling, because your smile is my favourite, and it makes you look even more cute and handsome. 😊❤️
+
+<br><br>
+
+I don't know what the future has planned for us, but I truly hope that no matter where life takes us, we always stay close to each other.
+
+<br><br>
+
+And if life allows us to walk together in the future, I promise I'll keep choosing you, caring for you, supporting you, and loving you a little more every single day. ❤️
+
+<br><br>
+
+Thank you for being such a wonderful person and for making my life brighter just by being a part of it.
+
+<br><br>
+
+I will always pray that all your dreams come true and that every birthday brings you even more happiness than the last one.
+
+<br><br>
+
+❤️ Happy 18th Birthday once again, My Buddhu.
+
+</p>
+
+        <br>
+
+        <h3>
+
+            Forever Yours ❤️
+
+        </h3>
+
+        <br>
+❤️ Your Future Partner ❤️
+
+        <button onclick="showFinale()">
+
+            🎉 One Last Surprise
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- PAGE 9 : GRAND FINALE -->
+<!-- ========================= -->
+
+<div class="container final-page" id="page9">
+
+    <div class="final-left">
+
+        <h1>🎉 HAPPY 18th BIRTHDAY RAHUL🎉</h1>
+
+        <h2>❤️Thank You For Opening My Little Surprise❤️</h2>
+
+        <p>
+
+I hope this little website made you smile. ❤️
+
+<br><br>
+
+Thank you for being such a wonderful part of my life.
+
+<br><br>
+
+May your life always be filled with happiness, success, good health, and endless love.
+
+<br><br>
+
+Never stop smiling, because your smile is my favourite and it makes you look even more cute and handsome. 😊❤️
+
+<br><br>
+
+No matter what the future holds, I will always pray for your happiness and wish you nothing but the very best.
+
+<br><br>
+
+Thank you for all the beautiful memories.
+
+I hope we create many more together.
+
+<br><br>
+
+❤️ Once Again...
+
+<br>
+
+🎂 Happy 18th Birthday, My UnRomantic Partner. ❤️
+
+</p>
+
+    </div>
+
+    <div class="final-right">
+
+        <img src="flowers.png" alt="Flowers">
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- MUSIC -->
+<!-- ========================= -->
+
+<audio id="birthdayMusic" loop>
+
+    <source src="birthday.mp3" type="audio/mp3">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
